@@ -2,6 +2,6 @@ body {
   background-color: lightblue;
 }
 
-input {
-  width: 100%;
+.formulario {
+    margin: auto;
 }
