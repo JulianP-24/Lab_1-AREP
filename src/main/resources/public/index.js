@@ -1,7 +1,7 @@
 var res = (function(){
     return{
         connexion  : function(tipo, numero){
-            var url = '/convertir/' + tipo + '/' + numero
+            var url = 'https://hidden-depths-06338.herokuapp.com/convertir/' + tipo + '/' + numero
             fetch(url, {
                 mode: 'no-cors',
                 method: 'GET',
