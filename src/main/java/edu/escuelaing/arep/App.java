@@ -5,7 +5,6 @@ import org.json.JSONObject;
 
 public class App
 {
-
     public static void main(String[] args) {
         port(getPort());
         staticFiles.location("/public");
