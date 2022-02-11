@@ -28,6 +28,6 @@ Se tiene una clase la cual se encarga de realizar los calculos y la clase princi
 
 ## Uso del Proyecto
 Para ejecutar este proyecto se puede clonar del repositorio de Github a traves del siguiente link:
-https://github.com/JulianP-24/LAB1-AREP.git
+https://github.com/JulianP-24/Lab_1-AREP.git
 
 Despliegue en Heroku: https://hidden-depths-06338.herokuapp.com
