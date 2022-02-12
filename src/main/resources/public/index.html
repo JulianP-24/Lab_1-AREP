@@ -6,18 +6,23 @@
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="index.js"></script>
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="icon" type="image/jpg" href="img/conversor-fahrenheit-celsius">
 </head>
 
 <body>
-    <form style="margin: auto">
-        <label for="tipo">Ingresa el tipo al que quieres convertir</label><br>
-        <input type="text" id="tipo">
-        <br></br>
-        <label for="numero">Ingresa el numero que deseas convertir</label><br>
-        <input type="text" id="numero">
-    </form>
+    <center>
+        <h2>Calculadora que pasa de grados centigrados a fahrenheit y viceversa</h2>
+    </center>
+    <div>
+        <form class="form">
+            <label for="tipo">Ingresa el tipo al que quieres convertir:</label><br>
+            <input type="text" id="tipo" placeholder="Celcius o Fahrenheit"><br>
+            <label for="numero">Ingresa el numero que deseas convertir:</label><br>
+            <input type="text" id="numero" placeholder="numero"><br>
+            <button class="button" type="button" onclick="res.connexion($('#tipo').val(),$('#numero').val())"> <span>convertir</span></button><br>
+        </form>
+    </div>
     <br></br>
-    <button type="button" onclick="res.connexion($('#tipo').val(),$('#numero').val())"> convertir </button><br>
     <span id="Resultado"> </span>
 </body>
 </html>
