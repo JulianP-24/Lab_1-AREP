@@ -8,6 +8,10 @@ input {
     text-align: center;
 }
 
+.div {
+    background-color: red;
+}
+
 .form {
   width: 100%;
   max-width: 600px;
